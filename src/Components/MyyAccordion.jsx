@@ -40,7 +40,7 @@ export function MyyAccordion() {
 
   return (
     <>
-      <div className="relative overflow-hidden">
+      <div id="Faq" className="relative overflow-hidden">
         <img
           className="absolute w-full top-[-22px]"
           src={accordion_img}
