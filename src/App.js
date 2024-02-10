@@ -1,25 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Header from "./Components/Header";
+import Tokenomic from "./Components/Tokenomic";
+import Utility from "./Components/Utility";
+import Footer from "./Components/Footer";
+import Roadmap from "./Components/Roadmap";
+import MyyAccordion from "./Components/MyyAccordion";
+import BackToTop from './Components/BackToTop'
+import Preloder from './Components/Preloder'
+import Aos from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 function App() {
+  <script></script>;
+  useEffect(() => {
+    Aos.init({ duration: 1500, once: true });
+  }, []);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="bg-[#0A4740] overflow-hidden">
+      <Preloder/>
+      <BackToTop/>
+      <Header />
+      <Tokenomic />
+      <Utility />
+      <Roadmap />
+      <MyyAccordion />
+      <Footer />
     </div>
   );
 }
 
 export default App;
+
+ 
