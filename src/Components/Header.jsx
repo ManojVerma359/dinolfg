@@ -93,7 +93,7 @@ const Header = () => {
                 <img className="" src={btn_img} alt="#" />
                 <a
                   href=""
-                  className="absolute bottom-[1%] left-[12%] bg-full bg-no-repeat text-black ff_chewy text-[18px] font-normal leading-normal px-3 pt-[10px] pb-[17px]  z-2 hover:text-white transition-all duration-500 ease-in-out"
+                  className="absolute bottom-[1%] left-[18%] bg-full bg-no-repeat text-black ff_chewy text-[18px] font-normal leading-normal px-3 pt-[10px] pb-[19px]  z-2 hover:text-white transition-all duration-500 ease-in-out"
                 >
                   Join Now
                 </a>
@@ -142,7 +142,7 @@ const Header = () => {
                 <img className="" src={btn_img} alt="#" />
                 <a
                   href=""
-                  className="absolute bottom-[1%] left-[12%] bg-full bg-no-repeat text-black ff_chewy text-[18px] font-normal leading-normal px-3 pt-[10px] pb-[17px]  z-2 hover:text-white transition-all duration-500 ease-in-out"
+                  className="absolute bottom-[1%] left-[17%] bg-full bg-no-repeat text-black ff_chewy text-[18px] font-normal leading-normal px-3 pt-[10px] pb-[19px]  z-2 hover:text-white transition-all duration-500 ease-in-out"
                 >
                   Join Now
                 </a>
