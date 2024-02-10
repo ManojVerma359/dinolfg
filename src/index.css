@@ -68,6 +68,7 @@ html,body{
     transform: translateX(-1350px);
   }
 }
+
 @media (max-width:576px) {
   .drgon1_animation {
     animation: drgon1_animation 7s infinite;
