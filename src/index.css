@@ -61,11 +61,11 @@ html,body{
   }
 
   90% {
-    transform: translateX(-1000px);
+    transform: translateX(-1100px);
   }
 
   100% {
-    transform: translateX(-1200px);
+    transform: translateX(-1350px);
   }
 }
 @media (max-width:576px) {
