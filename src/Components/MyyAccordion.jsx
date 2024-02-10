@@ -47,7 +47,7 @@ export function MyyAccordion() {
           alt=""
         />
 
-        <div className="container mx-auto px-3 max-w-[810px] pt-[80px] md:pt-[160px] lg:pt-[250px] xl:pt-[400px]">
+        <div className="container mx-auto px-3 max-w-[810px] pt-[45px] sm:pt-[80px] md:pt-[160px] lg:pt-[250px] xl:pt-[400px]">
           <p className="text-[64px] ff_chewy text-white text-center md:pb-[60px] sm:pb-[45px] pb-[25px]">
             FAQs
           </p>
