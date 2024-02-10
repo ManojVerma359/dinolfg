@@ -50,7 +50,7 @@ const Header = () => {
             </a>
             <ul
               className={`${
-                show ? "left-[-100%]" : "left-0 bg-[greenyellow]"
+                show ? "left-[-100%]" : "left-0 bg-[white]"
               } flex items-center gap-6 flex-row max-lg:fixed max-lg:z-50 max-lg:flex-col top-0 max-lg:w-full max-lg:h-full max-lg:min-h-screen max-lg:justify-center transition-all ease-linear duration-300} z-5`}
             >
               <li onClick={() => setShow(!show)}>
