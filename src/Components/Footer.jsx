@@ -11,7 +11,7 @@ const Footer = () => {
       <div className="xl:pt-[249px] lg:pt-[180px] md:pt-[120px] sm:pt-[70px] pt-[45px] relative ">
         <img className="absolute bottom-[0] w-full" src={footer_img} alt="#" />
         <img
-          className="absolute max-sm:w-[51%] right-[6%] bottom-[0] drgon1_animation"
+          className="absolute max-sm:w-[51%] max-w-[31%] right-[6%] bottom-[0] drgon1_animation"
           src={drgon1}
           alt="#"
         />
@@ -30,7 +30,7 @@ const Footer = () => {
             Sed tempus pretium est, vestibulum dapibus mauris viverra id.
             Curabitur feugiat porta lorem,{" "}
           </p>
-          <div className="flex gap-[10px] stroke-[white] sm:pt-[20px] pt-[16px] md:pt-[33px]  pb-[267px] 2xl:pb-[350px]">
+          <div className="flex gap-[10px] stroke-[white] sm:pt-[20px] pt-[16px] md:pt-[33px] pb-[160px]  sm:pb-[267px] 2xl:pb-[350px]">
             <a className="z-1 relative hover:scale-125 transition-all duration-500ms" href="https://twitter.com/?lang=en">
               {" "}
               <img src={twitter} alt="" />
