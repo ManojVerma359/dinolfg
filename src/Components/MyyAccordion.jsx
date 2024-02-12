@@ -47,13 +47,13 @@ export function MyyAccordion() {
           alt=""
         />
 
-        <div className="container mx-auto px-3 max-w-[810px] pt-[45px] sm:pt-[80px] md:pt-[160px] lg:pt-[250px] xl:pt-[214px] 2xl:pt-[400px]">
+        <div className="container mx-auto px-3 max-w-[827px] pt-[45px] sm:pt-[80px] md:pt-[160px] lg:pt-[250px] xl:pt-[214px] 2xl:pt-[400px]">
           <p className="text-[64px] ff_chewy text-white text-center md:pb-[60px] sm:pb-[45px] pb-[25px]">
             FAQs
           </p>
           <div className="gap-[20px] flex flex-col">
             <Accordion
-              className="border !bg-[#09655a]  border-[white] py-[16px] sm:py-[22px] px-[16px] sm:px-[30px] rounded-[40px] text-[12px] sm:text-[16px] ff_chewy text-white"
+              className="border !bg-[#09655a]  border-[white] py-[16px] sm:py-[24.5px] px-[16px] sm:px-[30px] rounded-[40px] text-[12px] sm:text-[16px] ff_chewy text-white"
               open={open === 1}
               icon={<Icon id={1} open={open} />}
             >
@@ -71,7 +71,7 @@ export function MyyAccordion() {
               </AccordionBody>
             </Accordion>
             <Accordion
-              className="border border-[white] !bg-[#09655a]  py-[16px] sm:py-[22px] px-[16px] sm:px-[30px] rounded-[40px] text-[12px] sm:text-[16px] ff_chewy text-white"
+              className="border border-[white] !bg-[#09655a]  py-[16px] sm:py-[24.5px] px-[16px] sm:px-[30px] rounded-[40px] text-[12px] sm:text-[16px] ff_chewy text-white"
               open={open === 2}
               icon={<Icon id={2} open={open} />}
             >
@@ -89,7 +89,7 @@ export function MyyAccordion() {
               </AccordionBody>
             </Accordion>
             <Accordion
-              className="border !bg-[#09655a]  border-[white] py-[16px] sm:py-[22px] px-[16px] sm:px-[30px] rounded-[40px] text-[12px] sm:text-[16px] ff_chewy text-white"
+              className="border !bg-[#09655a]  border-[white] py-[16px] sm:py-[24.5px] px-[16px] sm:px-[30px] rounded-[40px] text-[12px] sm:text-[16px] ff_chewy text-white"
               open={open === 3}
               icon={<Icon id={3} open={open} />}
             >
@@ -107,7 +107,7 @@ export function MyyAccordion() {
               </AccordionBody>
             </Accordion>
             <Accordion
-              className="border !bg-[#09655a] border-[white] py-[16px] sm:py-[22px] px-[16px] sm:px-[30px] rounded-[40px] text-[12px] sm:text-[16px] ff_chewy text-white"
+              className="border !bg-[#09655a] border-[white] py-[16px] sm:py-[24.5px] px-[16px] sm:px-[30px] rounded-[40px] text-[12px] sm:text-[16px] ff_chewy text-white"
               open={open === 4}
               icon={<Icon id={4} open={open} />}
             >
@@ -125,7 +125,7 @@ export function MyyAccordion() {
               </AccordionBody>
             </Accordion>
             <Accordion
-              className="border !bg-[#09655a]  border-[white] py-[16px] sm:py-[22px] px-[16px] sm:px-[30px] rounded-[40px] text-[12px] sm:text-[16px] ff_chewy text-white"
+              className="border !bg-[#09655a]  border-[white] py-[16px] sm:py-[24.5px] px-[16px] sm:px-[30px] rounded-[40px] text-[12px] sm:text-[16px] ff_chewy text-white"
               open={open === 5}
               icon={<Icon id={5} open={open} />}
             >
