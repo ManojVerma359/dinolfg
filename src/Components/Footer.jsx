@@ -30,18 +30,27 @@ const Footer = () => {
             Sed tempus pretium est, vestibulum dapibus mauris viverra id.
             Curabitur feugiat porta lorem,{" "}
           </p>
-          <div className="flex gap-[10px] stroke-[white] sm:pt-[20px] pt-[16px] md:pt-[33px] pb-[160px]  sm:pb-[267px] 2xl:pb-[350px]">
-            <a className="z-1 relative hover:scale-125 transition-all duration-500ms" href="https://twitter.com/?lang=en">
+          <div className="flex gap-[10px] stroke-[white] sm:pt-[20px] pt-[16px] md:pt-[33px] pb-[160px]  sm:pb-[267px] 2xl:pb-[300px]">
+            <a
+              className="z-1 relative hover:scale-125 transition-all duration-500ms"
+              href="https://twitter.com/?lang=en"
+            >
               {" "}
               <img src={twitter} alt="" />
             </a>
 
-            <a className="z-1 relative hover:scale-125 transition-all duration-500ms" href="https://discord.com/?lang=en">
+            <a
+              className="z-1 relative hover:scale-125 transition-all duration-500ms"
+              href="https://discord.com/?lang=en"
+            >
               {" "}
               <img src={discord} alt="" />
             </a>
 
-            <a className="z-1 relative hover:scale-125 transition-all duration-500ms" href="https://instagram.com/?lang=en">
+            <a
+              className="z-1 relative hover:scale-125 transition-all duration-500ms"
+              href="https://instagram.com/?lang=en"
+            >
               {" "}
               <img src={instgram} alt="" />
             </a>

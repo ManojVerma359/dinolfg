@@ -1,17 +1,19 @@
 import React from "react";
-import AboutLayor from "../assets/images/AboutLayer.webp";
+import AboutLayor from "../assets/images/AboutLayer.png";
 import TokenomicsCartoon from "../assets/images/TokenomicsCartoon.webp";
 import BabyDino from "../assets/images/CartoonCircle.webp";
 import BottomDino from "../assets/images/CartoonBottomImg.webp";
 import TokenDino from "../assets/images/dron_token.png";
+import token_im  from '../assets/images/token_im.png'
 
 const Tokenomics = () => {
   return (
     <div>
       <div id="Tokenomic" className="relative">
+        <img className="absolute right-0  sm:top-[15%] md:top-[18%]" src={token_im} alt="" />
         <img
           src={AboutLayor}
-          alt="AboutLayor"
+          alt="#"
           className="absolute top-[-2px] left-0 right-0 w-full"
         />
         <div className="container relative z-[1] xl:max-w-[1147px] xl:px-3 px-6 mx-auto lg:pt-[250px] sm:pt-[120px] pt-[80px] xl:pb-[540px] lg:pb-[450px] sm:pb-[200px] pb-[35px]">
@@ -178,7 +180,7 @@ const Tokenomics = () => {
         <img
           src={TokenDino}
           alt="#"
-          className="xl:max-w-[280px] sm:block hidden lg:max-w-[200px] sm:max-w-[150px] max-w-[100px] w-full absolute bottom-[5%] left-[0] z-[5]"
+          className="xl:max-w-[280px] sm:block hidden lg:max-w-[200px] sm:max-w-[150px] max-w-[100px] w-full absolute bottom-[0%] left-[0] z-[5]"
         />
       </div>
     </div>
