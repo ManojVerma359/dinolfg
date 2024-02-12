@@ -9,11 +9,11 @@
   background-size: cover;
 }
 
-
-html,body{
+html,
+body {
   scroll-behavior: smooth;
 }
-.over_hidden{
+.over_hidden {
   overflow: hidden;
 }
 .drgon1_animation {
@@ -34,9 +34,7 @@ html,body{
     transform: translateX(-110px);
   }
 
-
   30% {
-
     transform: translateX(-220px);
   }
 
@@ -69,10 +67,9 @@ html,body{
   }
 }
 
-@media (max-width:576px) {
+@media (max-width: 576px) {
   .drgon1_animation {
     animation: drgon1_animation 7s infinite;
     animation-timing-function: linear;
   }
-  
 }

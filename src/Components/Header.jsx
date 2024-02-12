@@ -23,7 +23,7 @@ const Header = () => {
   }
   return (
     <>
-      <div className="bg_img bg-[#c3e9ff] lg:bg-full bg-cover bg-center bg-repeat xl:min-h-screen sm:h-[730px] md:h-[874px] lg:h-[930px] h-[600px] relative pt-7 z-3">
+      <div className="bg_img bg-[#c3e9ff] lg:bg-full bg-cover bg-center bg-repeat xl:min-h-[97vh] sm:h-[730px] md:h-[874px] lg:h-[930px] h-[600px] relative pt-7 z-3">
         <img
           src={drgon1}
           alt="drgon1"
