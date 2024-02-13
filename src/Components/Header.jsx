@@ -232,7 +232,9 @@ const Header = () => {
               className="font-normal sm:text-[69.669px] text-[42px] ff-lucky drop-shadow-[0px_2.38px_0px_#FFF] leading-[113%] sm:mb-[42px] mb-6 text-center"
               data-aos="zoom-in"
             >
-              <span className="ff_chewy text-white text-[40px]  sm:text-[64px]">About</span>{" "}
+              <span className="ff_chewy text-white text-[40px]  sm:text-[64px]">
+                About
+              </span>{" "}
               <span className="text-[#FBA11D] ff-lucky">D</span>
               <span className="text-[#23AAAC] ff-lucky">i</span>
               <span className="text-[#D45B07] ff-lucky">n</span>

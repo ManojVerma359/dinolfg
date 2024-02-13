@@ -11,7 +11,7 @@ function Icon({ id, open }) {
     <svg
       className={`${
         id === open ? "rotate-180" : ""
-      } h-6 w-6  transition-transform`}
+      } md:h-9 md:w-9 h-6 w-6   transition-transform`}
       width="36"
       height="36"
       viewBox="0 0 36 36"

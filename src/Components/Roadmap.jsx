@@ -26,7 +26,7 @@ const Roadmap = () => {
             <h3 className="lg:text-[200px] sm:text-[120px] text-[70px] font-normal md:w-[auto] w-[135px] md:leading-[130%] leading-[76%] ff_chewy text-[#FBA11D] drop-shadow-[0px_18.413px_18.413px_rgba(0,_0,_0,_0.26)]">
               01{" "}
             </h3>
-            <ol className="flex flex-col gap-4 list-disc pl-[30px]">
+            <ul className="flex flex-col gap-4 list-disc pl-[30px]">
               <li className="lg:text-[20px] text-[15px] ff_balsmiq font-normal text-white leading-[121%]">
                 Launch $DINO & Website & Social Media.
               </li>
@@ -36,7 +36,7 @@ const Roadmap = () => {
               <li className="lg:text-[20px] text-[15px] font-normal ff_balsmiq text-white leading-[121%]">
                 Marketing Phase 1.
               </li>
-            </ol>
+            </ul>
             <img
               src={helicpoter}
               alt="#"
@@ -50,7 +50,7 @@ const Roadmap = () => {
             <h3 className="lg:text-[200px] sm:text-[120px] text-[70px] leading-[145%] ff_chewy font-normal text-[#8EC627] drop-shadow-[0px_18.413px_18.413px_rgba(0,_0,_0,_0.26)]">
               02
             </h3>
-            <ol className="flex flex-col gap-4 list-disc pl-[30px]">
+            <ul className="flex flex-col gap-4 list-disc pl-[30px]">
               <li className="lg:text-[20px] text-[15px] ff_balsmiq font-normal text-white leading-[121%]">
                 CoinGecko & Coinmarketcap listing.
               </li>
@@ -60,7 +60,7 @@ const Roadmap = () => {
               <li className="lg:text-[20px] text-[15px] ff_balsmiq font-normal text-white leading-[121%]">
                 Marketing Phase 2.
               </li>
-            </ol>
+            </ul>
             <img
               src={roadmap_img1}
               alt="#"
@@ -74,7 +74,7 @@ const Roadmap = () => {
             <h3 className="lg:text-[220.95px] sm:text-[120px] text-[70px] font-normal ff_chewy text-[#D45B07] drop-shadow-[0px_18.413px_18.413px_rgba(0,_0,_0,_0.26)] leading-[131%]">
               03
             </h3>
-            <ol className="flex flex-col gap-4 list-disc pl-[30px]">
+            <ul className="flex flex-col gap-4 list-disc pl-[30px]">
               <li className="lg:text-[20px] text-[15px] font-normal ff_balsmiq text-white leading-[121%]">
                 Utility and Usecase Introduction.
               </li>
@@ -84,7 +84,7 @@ const Roadmap = () => {
               <li className="lg:text-[20px] text-[15px] font-normal ff_balsmiq text-white leading-[121%]">
                 Marketing Phase 3.
               </li>
-            </ol>
+            </ul>
             <img
               src={roadmap_img2}
               alt="#"
@@ -98,7 +98,7 @@ const Roadmap = () => {
             <h3 className="lg:text-[200px] sm:text-[120px] text-[70px]  ff_chewy font-normal md:ml-[150px] text-[#23AAAC] drop-shadow-[0px_18.413px_18.413px_rgba(0,_0,_0,_0.26)] leading-[145%]">
               04
             </h3>
-            <ol className="flex flex-col gap-4 list-disc pl-[30px]">
+            <ul className="flex flex-col gap-4 list-disc pl-[30px]">
               <li className="lg:text-[20px] text-[15px] ff_balsmiq font-normal text-white leading-[121%]">
                 Staking Introduction.
               </li>
@@ -108,7 +108,7 @@ const Roadmap = () => {
               <li className="lg:text-[20px] text-[15px] ff_balsmiq font-normal text-white leading-[121%]">
                 Marketing Phase 4
               </li>
-            </ol>
+            </ul>
             <img
               src={ghas_img}
               alt="#"
