@@ -4,7 +4,7 @@ import drgon1 from "../assets/images/drgn.png";
 import drgon2 from "../assets/images/drgn1.png";
 import unlity_tree from "../assets/images/unlity_tree.png";
 import Roadmaplayer from "../assets/images/bottom_img2.png";
-import img_tree3 from "../assets/images/imgtree3.png";
+import img_tree3 from "../assets/images/img_tree222.png";
 
 const Utility = () => {
   return (

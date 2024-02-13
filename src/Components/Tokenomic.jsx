@@ -3,7 +3,7 @@ import AboutLayor from "../assets/images/AboutLayer.png";
 import TokenomicsCartoon from "../assets/images/TokenomicsCartoon.webp";
 import BabyDino from "../assets/images/CartoonCircle.webp";
 import BottomDino from "../assets/images/CartoonBottomImg.webp";
-import TokenDino from "../assets/images/dron_token.png";
+// import TokenDino from "../assets/images/dron_token.png";
 import token_im from "../assets/images/token_im.png";
 
 const Tokenomics = () => {
@@ -181,11 +181,11 @@ const Tokenomics = () => {
             </div>
           </div>
         </div>
-        <img
+        {/* <img
           src={TokenDino}
           alt="#"
           className="xl:max-w-[280px] sm:block hidden lg:max-w-[200px] sm:max-w-[150px] max-w-[100px] w-full absolute bottom-[0%] left-[0] z-[5]"
-        />
+        /> */}
       </div>
     </div>
   );
