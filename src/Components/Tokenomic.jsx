@@ -4,13 +4,17 @@ import TokenomicsCartoon from "../assets/images/TokenomicsCartoon.webp";
 import BabyDino from "../assets/images/CartoonCircle.webp";
 import BottomDino from "../assets/images/CartoonBottomImg.webp";
 import TokenDino from "../assets/images/dron_token.png";
-import token_im  from '../assets/images/token_im.png'
+import token_im from "../assets/images/token_im.png";
 
 const Tokenomics = () => {
   return (
     <div>
       <div id="Tokenomic" className="relative">
-        <img className="absolute right-0  sm:top-[15%] md:top-[18%]" src={token_im} alt="" />
+        <img
+          className="absolute right-0  sm:top-[15%] md:top-[18%]"
+          src={token_im}
+          alt=""
+        />
         <img
           src={AboutLayor}
           alt="#"
