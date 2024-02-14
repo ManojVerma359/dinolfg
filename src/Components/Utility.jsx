@@ -8,7 +8,7 @@ import img_tree3 from "../assets/images/img_tree222.png";
 
 const Utility = () => {
   return (
-    <div className="relative pt-[40px] sm:pt-[75px] md:pt-[110px] lg:pt-[160px]  xl:pt-[160px] pt_180 pt_200 md:pb-[110px]  sm:pb-[50px] pb-[3px] lg:pb-[168px]">
+    <div className="relative pt-[40px] sm:pt-[75px] md:pt-[110px] lg:pt-[160px]  xl:pt-[260px] pt_180 pt_200 md:pb-[110px]  sm:pb-[50px] pb-[3px] lg:pb-[168px]">
       <img
         src={img_tree3}
         alt="#"
