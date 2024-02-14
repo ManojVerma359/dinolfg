@@ -1,6 +1,6 @@
 import React from "react";
 // import Utilitylayer from "../assets/images/web.p/utility-layer.webp";
-import drgon1 from "../assets/images/drgn.png";
+import drgon1 from "../assets/images/utiliy_drgon.png";
 import drgon2 from "../assets/images/drgn1.png";
 import unlity_tree from "../assets/images/unlity_tree.png";
 import Roadmaplayer from "../assets/images/bottom_img2.png";
@@ -8,11 +8,11 @@ import img_tree3 from "../assets/images/img_tree222.png";
 
 const Utility = () => {
   return (
-    <div className="relative pt-[40px] sm:pt-[75px] md:pt-[110px] lg:pt-[160px] lg:pt-[170px] xl:pt-[200px] md:pb-[110px]  sm:pb-[50px] pb-[3px] lg:pb-[168px]">
+    <div className="relative pt-[40px] sm:pt-[75px] md:pt-[110px] lg:pt-[160px]  xl:pt-[160px] pt_180 pt_200 md:pb-[110px]  sm:pb-[50px] pb-[3px] lg:pb-[168px]">
       <img
         src={img_tree3}
         alt="#"
-        className="absolute sm:block hidden w-full left-0 top-[-22%] lg:top-[-32%] 2xl:top-[-42%]"
+        className="absolute sm:block hidden w-full left-0 top-[-22%] lg:top-[-26%] 2xl:top-[-40%] top_img top_img1"
       />
       <img
         src={Roadmaplayer}

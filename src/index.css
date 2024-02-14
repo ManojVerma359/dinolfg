@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .bg_img {
-  background-image: url(../src/assets/images/hero_nbgimg.png);
+  background-image: url(../src/assets/images/hero.png);
   background-repeat: no-repeat;
   background-position: 100% 100%;
   background-size: cover;
@@ -16,10 +16,6 @@ body {
 .over_hidden {
   overflow: hidden;
 }
-
-
-
-
 @media (min-width: 768px) {
   .drgon1_animation {
     animation: drgon1_animation 24s infinite;
@@ -69,5 +65,23 @@ body {
     100% {
       transform: translateX(-1350px);
     }
+  }
+}
+
+
+@media (min-width:1435px) {
+  .pt_180{
+    padding-top: 180px !important;
+  }
+  .top_img1{
+    top: -37% !important;
+  }
+}
+@media (min-width:1540px) {
+  .pt_200{
+    padding-top: 230px !important;
+  }
+  .top_img{
+    top: -45% !important;
   }
 }

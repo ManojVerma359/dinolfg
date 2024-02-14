@@ -8,7 +8,7 @@ import discord from "../assets/images/svg/discord.svg";
 import twitter from "../assets/images/svg/twitter.svg";
 import instgram from "../assets/images/svg/instagram.svg";
 import btn_img from "../assets/images/btn_img.png";
-import top_img from "../assets/images/top_img.png";
+// import top_img from "../assets/images/top_img.png";
 import bottom_img from "../assets/images/bottom_img.png";
 
 const Header = () => {
@@ -27,13 +27,13 @@ const Header = () => {
         <img
           src={drgon1}
           alt="drgon1"
-          className="absolute drgon1_animation  right-[8.5%] bottom-[4%] lg:max-w-[211px] sm:max-w-[140px] max-w-[100px]  w-full z-[1]"
+          className="absolute drgon1_animation  right-[8.5%] bottom-[10%] lg:max-w-[211px] sm:max-w-[140px] max-w-[100px]  w-full z-[1]"
           // data-aos="zoom-in"
         />
         <img
           src={drgon2}
           alt="#"
-          className="absolute animate-bounce left-[14%] sm:left-[30%] md:left-[40%] lg:left-[49.5%] bottom-[10%]  md:max-w-[131px] sm:max-w-[65px] max-w-[100px] w-full z-0"
+          className="absolute animate-bounce left-[14%] sm:left-[30%] md:left-[40%] lg:left-[41.5%] 2xl:left-[49%] bottom-[17%] 2xl:bottom-[21%]  md:max-w-[131px] sm:max-w-[65px] max-w-[100px] w-full z-0"
           // data-aos="zoom-in"
         />
         <div className="container xl:max-w-[1158px] mx-auto lg:px-3 px-5">
@@ -201,11 +201,11 @@ const Header = () => {
         </div>
       </div>
       <div className="relative z-1">
-        <img
+        {/* <img
           className="absolute top-[-4%] sm:top-[-5%] lg:top-[-8%] w-full "
           src={top_img}
           alt="#"
-        />
+        /> */}
         <img
           className="absolute xl:bottom-[-49%] lg:bottom-[-39%] md:bottom-[-28%] bottom-[-17%] 2xl:bottom-[-65%]  w-full"
           src={bottom_img}
