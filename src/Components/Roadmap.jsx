@@ -12,7 +12,7 @@ const Roadmap = () => {
       className="bg-[#09655A] sm:pb-[100px] md:pb-[200px] xl:pb-[200px] pb-[40px] my-[-2px]"
     >
       <h2
-        className="sm:text-[64px] text-[50px] font-normal text-white text-center ff_chewy leading-[83.63px] md:mb-[97px]leading-[132%] relative z-10 mb-[40px]"
+        className="sm:text-[64px] text-[40px] font-normal text-white text-center ff_chewy leading-[83.63px] md:mb-[97px]leading-[132%] relative z-10 mb-[40px]"
         data-aos="zoom-in"
       >
         Roadmap

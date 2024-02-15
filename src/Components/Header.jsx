@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import airplan from "../assets/images/hero_img.png";
-import drgon2 from "../assets/images/drgn.png";
+import drgon2 from "../assets/images/utiliy_drgon.png";
 import drgon1 from "../assets/images/drgn1.png";
 import rightree from "../assets/images/treeright.png";
 import leftree from "../assets/images/treeleft.png";

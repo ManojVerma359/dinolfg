@@ -26,7 +26,7 @@ const Footer = () => {
               <span className="text-[#8EC627] ff-lucky">G</span>
             </h2>
           </a>
-          <p className="max-w-[376px] sm:pt-[20px] pt-[16px] md:pt-[33px] text-[14px] ff_balsmiq text-white text-center ">
+          <p className="max-w-[376px] sm:pt-[20px] pt-[16px] z-[1] md:pt-[33px] text-[14px] ff_balsmiq text-white text-center ">
             Sed tempus pretium est, vestibulum dapibus mauris viverra id.
             Curabitur feugiat porta lorem,{" "}
           </p>

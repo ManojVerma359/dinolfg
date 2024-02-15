@@ -48,7 +48,7 @@ export function MyyAccordion() {
         />
 
         <div className="container mx-auto px-3 max-w-[827px] pt-[45px] sm:pt-[80px] md:pt-[160px] lg:pt-[250px] xl:pt-[214px] 2xl:pt-[400px]">
-          <p className="text-[64px] ff_chewy text-white text-center md:pb-[60px] sm:pb-[45px] pb-[25px]">
+          <p className="sm:text-[64px] text-[40px] ff_chewy text-white text-center md:pb-[60px] sm:pb-[45px] pb-[25px]">
             FAQs
           </p>
           <div className="gap-[20px] flex flex-col">
